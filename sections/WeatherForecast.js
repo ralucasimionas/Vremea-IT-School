@@ -30,7 +30,7 @@ function displayWeatherForecast(city) {
 
       for (key in daysMap) {
         weatherForecastContainerElement.innerHTML += `
-        <h3 class="text-primary m-3"> ${key}</h3>`;
+        <h3 class="text-primary"> ${key}</h3>`;
 
         const days = daysMap[key];
 
@@ -46,7 +46,7 @@ function displayWeatherForecast(city) {
           const weatherIcon = getWeatherIcon(weather[0].icon);
 
           weatherForecastContainerElement.innerHTML += `
-        <div class="weather-forecast-box w-100 d-flex justify-content-between align-items-center border rounded p-3 m-3">
+        <div class="weather-forecast-box w-100 d-flex justify-content-between align-items-center border rounded p-3 mb-3">
             <div>
                 <div>${hour}</div>
             </div>

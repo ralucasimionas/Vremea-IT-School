@@ -25,7 +25,7 @@ function displayCurrentWeather(city) {
             <div class="fs-2 mb-2"><strong>${name}</strong></div>
             <div class="fs-4"><strong>${day} ${minutes}</strong></div>
              <div class="d-flex align-items-center justify-content-center">
-                <strong class="fs-1">${temperature} °C</strong>
+                <strong class="fs-1">${temperature}°C</strong>
                 <img src="${weatherIcon}" alt ="Weather Icon"/> 
             </div>
         </div>
